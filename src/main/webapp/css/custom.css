@@ -1,0 +1,70 @@
+.main{
+    color: #fff;
+    height: 68px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #3D4A51;
+    border-bottom: 1px solid #00776d;
+}
+
+header.main .pivotal-logo {
+    background: #00776d;
+    padding: 18px;
+    width: 68px;
+    height: 68px;
+    box-sizing: border-box;
+}
+.mrxl {
+    margin-right: 20px!important;
+}
+
+header.main .pivotal-logo svg {
+    display: block;
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+
+header.main .header-content {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	margin-left: 65px;
+	margin-top: -30px;
+}
+
+.h3, h3 {
+    font-size: 20px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    padding-top: .107em;
+    padding-bottom: .107em;
+}
